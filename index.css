@@ -1,0 +1,30 @@
+body {
+  	background-color: white;
+  	color: #111;
+}
+
+h3{
+	text-align: center;
+	color : #113;
+}
+
+.ballh3{
+	text-align: center;
+}
+
+#buy{
+	width:400px ;
+	border: medium double #111111;
+}
+
+#shop{
+	width:400px ;
+	border: medium double #111111;
+}
+
+.balldiv,#shoplist{
+	text-align: center;
+	width:400px ;
+	height:150px;
+	border: medium double #111111;
+}

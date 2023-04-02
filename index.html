@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link href="index.css" rel="stylesheet" type="text/css" />
+		<link rel="shortcut icon" href="./img/icon.ico" type="image/x-icon">
+		<title>波兰球-颜料工厂</title>
+	</head>
+	<body>
+		
+		<div id = 'paint'>你有 1白 1 红 0 黄 0 蓝 0黑</div>
+		<div id='money'>钱0</div>
+		<div id='tab_bar'>
+			<div id='buy'>购买</div>
+			<div id='shop'>商店</div>
+		</div>
+		<div id="mainpage">
+			<div id='poland'  class='balldiv'>
+				<h3 id = 'polandh3' class='ballh3'>你有 1只波兰球</h3>
+				<h4 >制作一只波兰 价格:1红色 1白色 每秒增加1蓝色</h4>
+				<h4 id='polandtime'>剩余购买时间 0秒</h4>
+			</div><div id='france' class='balldiv' >
+				<h3 id = 'franceh3' class='ballh3'>你有 1只法国球</h3>
+				<h4 >制作一只法国 价格:1红色 1白色 1蓝色 每秒增加1蓝色</h4>
+				<h4 id='francetime'>剩余购买时间 0秒</h4>
+			</div><div id='german' class='balldiv' >
+				<h3 id = 'germanh3' class='ballh3'>你有 1只德国球</h3>
+				<h4 >制作一只德国 价格:1黑色 1红色 1黄色 每秒增加1蓝色</h4>
+				<h4 id='germantime'>剩余购买时间 0秒</h4>
+			</div>
+		</div>
+		<div id='shoppage'>
+			<div id='shoplist'>
+				<h3>价目表</h3>
+				<h4>1钱/白   5钱/红   20钱/黄   200钱/蓝   2000钱/黑</h4>
+			</div>
+			<button  type='button' id='spend_white' >卖出白色</button>
+			<button  type='button' id='spend_red' >卖出红色</button>
+			<button  type='button' id='spend_yellow' >卖出黄色</button>
+			<button  type='button' id='spend_blue' >卖出蓝色</button>
+			<button  type='button' id='spend_black' >卖出黑色</button>
+			<br />
+			<button  type='button' id='buy_white' >卖入白色</button>
+			<button  type='button' id='buy_red' >卖入红色</button>
+			<button  type='button' id='buy_yellow' >卖入黄色</button>
+			<button  type='button' id='buy_blue' >卖入蓝色</button>
+			<button  type='button' id='buy_black' >卖入黑色</button>
+		</div>
+		<a href="../index.html">返回主站</a>
+		<script src="./index.js" defer></script>
+		<script src="./display.js" defer></script>
+		<script src="./tab.js" defer></script>
+	</body>
+</html>
